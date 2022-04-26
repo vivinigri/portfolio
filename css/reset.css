@@ -1,0 +1,79 @@
+/**
+ * SITE STYLE RESET
+ */
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button, input, textarea, select {
+    margin:  0px;
+    padding: 0px;
+    outline: 0;
+}
+
+iframe {
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+a {
+    cursor: default;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:active {
+    outline: 0;
+}
+
+a[href],
+a[download] {
+    cursor: pointer;
+}
+
+a img {
+    border: none;
+}
+
+
+/* Removes ie "show password" and "clear field" icons */
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+}
+
+/* Remove inner padding and border in Firefox 4+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border:  0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input,
+textarea,
+button,
+select {
+    -webkit-appearance: none;
+}
